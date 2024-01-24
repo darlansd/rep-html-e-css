@@ -1,0 +1,37 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+button{ 
+    padding: 17px;
+    background-color: burlywood;
+    color: aqua;
+    border-radius: 50px;
+    margin-top: 5px;
+    margin-left: 15px;
+    font-size: 20px;
+    cursor: pointer;
+} 
+
+header.header{
+    height: 50px;
+    width: 100%;
+    background-color: blueviolet;
+}
+
+.foto{
+    background-color: blue;
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    align-items: center;
+    gap: 15px;
+}
+
+.foto img{
+    height: 250px;
+    display: block;
+    border-radius: 27px;
+    
+}
