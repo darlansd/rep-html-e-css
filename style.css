@@ -4,9 +4,10 @@
 }
 
 header.header{
-    height: 50px;
+    height: 42px;
     width: 100%;
     background-color:white;
+    orientation: horizontal;
 }
 
 #png_aslan{
@@ -15,24 +16,36 @@ header.header{
 }
 
 #png_aslan img{
-    height: 49px;
+    height: 40px;
+    margin-left: 8px;
+    margin-right: 8px;
 }
 
 #curso{
-    font-size: 15px;
+    font-size: 23px;
     display: flex;
     justify-content: center;
-}
-
-#aslanG{
-    font-size: 40px;
     color:blue;
+    height: min-content;
 }
 
 #idiomas{
     display: flex;
     align-items: flex-end;
-    justify-content: flex-start;
+    justify-content: flex-end;
+    color: red;
+    height: min-content;
+}
+
+#cursoidiomas{
+    justify-content: center;
+    height: min-content;
+}
+
+#aslanG{
+    font-size: 36px;
+    color:blue;
+    margin-left: 15px;
 }
 
 .bosta{
@@ -69,3 +82,38 @@ button{
     font-size: 15px;
     cursor: pointer;
 } 
+
+#menu_home{
+    width: 170px;
+    padding: 2px;
+    margin-top: 5px;
+    font-size: 20px;
+    color: black;
+    display: flex;
+    justify-content: center;
+    border-radius: 15px;
+    background-color:aquamarine;
+    margin-left: 5px;
+}
+
+.atalho_maisusado{
+    width: 135px;
+    height: 25px;
+    font-size: 17px;
+    background-color: blue;
+    color: white;
+    padding-left: 15px;
+    margin-left: 5px;
+    display: flex;
+    align-items: center;
+}
+
+.top_atalho{
+    color: purple;
+    font-size: 14px;
+    background-color: gray;
+    width: 145px;
+    margin-left: 5px;
+    outline: black;
+    padding-left: 5px;
+}
