@@ -4,12 +4,13 @@
 }
 
 button{ 
-    padding: 17px;
+    padding: 15px;
     background-color: burlywood;
-    color: aqua;
+    color:black;
     border-radius: 50px;
-    margin-top: 5px;
+    margin-top: 25px;
     margin-left: 15px;
+    margin-bottom: 25px;
     font-size: 20px;
     cursor: pointer;
 } 
@@ -20,13 +21,24 @@ header.header{
     background-color: blueviolet;
 }
 
-.foto{
-    background-color: blue;
+.bosta{
     display: flex;
     justify-content: center;
-    height: 100vh;
+    background-color:
+}
+
+#merda{
+    font-size: 35px;
+    display: flex;
+    justify-content: center;
+}
+
+.foto{
+    display: flex;
+    justify-content: center;
     align-items: center;
-    gap: 15px;
+    margin-top: 25px;
+
 }
 
 .foto img{
