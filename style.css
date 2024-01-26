@@ -3,34 +3,45 @@
     padding: 0;
 }
 
-button{ 
-    padding: 15px;
-    background-color: burlywood;
-    color:black;
-    border-radius: 50px;
-    margin-top: 25px;
-    margin-left: 15px;
-    margin-bottom: 25px;
-    font-size: 20px;
-    cursor: pointer;
-} 
-
 header.header{
     height: 50px;
     width: 100%;
-    background-color: blueviolet;
+    background-color:white;
+}
+
+#png_aslan{
+    background-color: white;
+    display: flex;    
+}
+
+#png_aslan img{
+    height: 49px;
+}
+
+#curso{
+    font-size: 15px;
+    display: flex;
+    justify-content: center;
+}
+
+#aslanG{
+    font-size: 40px;
+    color:blue;
+}
+
+#idiomas{
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-start;
 }
 
 .bosta{
     display: flex;
     justify-content: center;
-    background-color:
-}
-
-#merda{
-    font-size: 35px;
-    display: flex;
-    justify-content: center;
+    align-items: center;
+    justify-content: space-around;
+    background-color:blue;
+    height: 45px;    
 }
 
 .foto{
@@ -45,5 +56,16 @@ header.header{
     height: 250px;
     display: block;
     border-radius: 27px;
-    
 }
+
+button{ 
+    padding: 7px;
+    background-color: blue;
+    color:white;
+    border-radius: 50px;
+    margin-top: 25px;
+    margin-left: 15px;
+    margin-bottom: 25px;
+    font-size: 15px;
+    cursor: pointer;
+} 
